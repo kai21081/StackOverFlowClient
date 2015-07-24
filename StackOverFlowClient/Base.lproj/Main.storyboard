@@ -316,12 +316,6 @@
                                                     <color key="textColor" red="1" green="0.60336612281079027" blue="0.019225242335939585" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="asked 56 secs ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAx-1q-ddE">
-                                                    <rect key="frame" x="479" y="71" width="113" height="16"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="90" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CW-z4-TiP">
                                                     <rect key="frame" x="575" y="96" width="17" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -334,36 +328,22 @@
                                                     <color key="textColor" red="0.92549019607843142" green="0.63511670883175475" blue="0.045122924087466314" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9R5-cW-aEd">
-                                                    <rect key="frame" x="479" y="91" width="30" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="30" id="O1O-dz-PR9"/>
-                                                        <constraint firstAttribute="height" constant="30" id="Prt-Rm-rk5"/>
-                                                    </constraints>
-                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="0.21644663547237075" green="0.14902430988340012" blue="0.009256494346409249" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="eWv-h6-SrX" firstAttribute="leading" secondItem="EA2-oe-Cec" secondAttribute="trailing" constant="8" id="7QE-5p-HOf"/>
-                                                <constraint firstItem="JAx-1q-ddE" firstAttribute="trailing" secondItem="W7p-W3-9g8" secondAttribute="trailingMargin" id="AkO-vA-bDP"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="1CW-z4-TiP" secondAttribute="bottom" id="BQP-bK-g05"/>
                                                 <constraint firstItem="EA2-oe-Cec" firstAttribute="leading" secondItem="W7p-W3-9g8" secondAttribute="leadingMargin" constant="-8" id="JDU-kv-Ulg"/>
                                                 <constraint firstItem="eWv-h6-SrX" firstAttribute="top" secondItem="W7p-W3-9g8" secondAttribute="topMargin" constant="-5" id="MhL-8L-e6h"/>
                                                 <constraint firstItem="1CW-z4-TiP" firstAttribute="trailing" secondItem="W7p-W3-9g8" secondAttribute="trailingMargin" id="Roz-tv-s5q"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="9R5-cW-aEd" secondAttribute="bottom" constant="-7" id="VM3-9E-zEA"/>
                                                 <constraint firstItem="eWv-h6-SrX" firstAttribute="trailing" secondItem="W7p-W3-9g8" secondAttribute="trailingMargin" id="Xcs-vY-7Xl"/>
-                                                <constraint firstItem="9R5-cW-aEd" firstAttribute="top" secondItem="JAx-1q-ddE" secondAttribute="bottom" constant="4" id="jQM-MJ-jVd"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="2fL-me-LuF" secondAttribute="bottom" id="jXx-g9-WxL"/>
-                                                <constraint firstItem="2fL-me-LuF" firstAttribute="leading" secondItem="9R5-cW-aEd" secondAttribute="trailing" constant="8" id="lz3-Cb-EnG"/>
                                                 <constraint firstItem="1CW-z4-TiP" firstAttribute="leading" secondItem="2fL-me-LuF" secondAttribute="trailing" constant="8" id="mGB-Zo-uq6"/>
                                                 <constraint firstItem="EA2-oe-Cec" firstAttribute="top" secondItem="W7p-W3-9g8" secondAttribute="topMargin" constant="-8" id="vld-Uk-bbZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="answerCount" destination="knY-E9-VOy" id="Ty4-bD-58x"/>
-                                            <outlet property="createDateLabel" destination="JAx-1q-ddE" id="ajW-7x-BuF"/>
-                                            <outlet property="imageView" destination="9R5-cW-aEd" id="iCR-b6-657"/>
-                                            <outlet property="profileImage" destination="9R5-cW-aEd" id="zrm-YE-LgO"/>
                                             <outlet property="reputationLabel" destination="1CW-z4-TiP" id="VWC-Jm-N4c"/>
                                             <outlet property="titleLabel" destination="eWv-h6-SrX" id="bhS-Em-vNQ"/>
                                             <outlet property="userIDLabel" destination="2fL-me-LuF" id="TPr-fG-6WA"/>

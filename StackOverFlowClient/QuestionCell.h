@@ -12,9 +12,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *votesCount;
 @property (weak, nonatomic) IBOutlet UILabel *answerCount;
 @property (weak, nonatomic) IBOutlet UILabel *viewCount;
-@property (weak, nonatomic) IBOutlet UILabel *createDateLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *createDateLabel;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *reputationLabel;
 @property (weak, nonatomic) IBOutlet UILabel *userIDLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *profileImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *profileImage;
 @end

@@ -47,14 +47,14 @@
   cell.viewCount.text = [self checkCount:question.view_count];
   cell.reputationLabel.text = [NSString stringWithFormat:@"%d",question.user.reputation];
   cell.userIDLabel.text = question.user.display_name;
-  if (question.user.profile_image == nil) {
-    [ImageFetchService fetchImageWithString:question.user.profile_image_url size:CGSizeMake(30, 30) completionHandler:^(UIImage *thumbnailImage) {
-      cell.profileImage.image = thumbnailImage;
-      question.user.profile_image = thumbnailImage;
-    }];
-  }else{
-    cell.profileImage.image = question.user.profile_image;
-  }
+//  if (question.user.profile_image == nil) {
+//    [ImageFetchService fetchImageWithString:question.user.profile_image_url size:CGSizeMake(30, 30) completionHandler:^(UIImage *thumbnailImage) {
+//      cell.profileImage.image = thumbnailImage;
+//      question.user.profile_image = thumbnailImage;
+//    }];
+//  }else{
+//    cell.profileImage.image = question.user.profile_image;
+//  }
   
   return cell;
 }
